@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>グリッドレイアウト</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/func.js"></script>
+  </head>
+  <body>
+   <header class="header item">
+     <h1>
+     <a href="#">
+      <img class="logo" src="images/IMG_0351.JPG" alt="SAMPLE SITE 2">
+     </a>
+   </h1>
+   <nav class="nav">
+     <ul>
+       <li class="nav-item"><a href="#">HOME</a></li>
+       <li class="nav-item"><a href="#">ABOUT</a></li>
+       <li class="nav-item"><a href="#">MEMBER</a></li>
+       <li class="nav-item"><a href="#">EVENT</li>
+       <li class="nav-item"><a href="#">DISH</a></li>
+       <li class="nav-item"><a href="#">COLUMN</a></li>
+       <li class="nav-item"><a href="#">OTHHER</a></li>
+     </ul>
+   </nav>
+   </header>
+
+   <section class="item item-l item-maindish">
+     <a href="#">
+       <img class="image" src="IMG_0180.JPG" alt="メインディッシュ">
+       <div class="category">東京到着</div>
+       <p class="description">波乱の展開へ！</p>
+     </a>
+    </section>
+
+    <section class="item item-m item-appetizer">
+      <a href="#">
+        <img class="image" src="IMG_0153.JPG" alt="前菜">
+        <div class="category">朝ですよー</div>
+        <p class="description">カベ君！おはよう！</p>
+      </a>
+     </section>
+
+     <section class="item item-m item-maindish">
+       <a href="#">
+         <img class="image" src="IMG_0522.JPG" alt="メインディッシュ">
+         <div class="category">富士急のイルミネーション</div>
+         <p class="description">一番遅くまで残ってたね。</p>
+       </a>
+      </section>
+
+   <section class="item item-maindish">
+     <a href="#">
+      <img class="image" src="IMG_0133.JPG" alt="メインディッシュ">
+      <div class="category">出発の朝</div>
+      <p class="description">恒例のすきやからのスタート！</p>
+    </a>
+   </section>
+
+   <section class="item item-appetizer">
+     <a href="#">
+      <img class="image" src="IMG_0158.JPG" alt="メインディッシュ">
+      <div class="category">仙台到着</div>
+      <p class="description">滝川高校9時電メンバー集結！</p>
+    </a>
+   </section>
+
+   <section class="item item-m item-breaktime">
+     <a href="#">
+       <img class="image" src="IMG_0444.JPG" alt="おやつの時間">
+       <div class="category">大江戸温泉物語</div>
+       <p class="description">疲れた体を癒しましょう！</p>
+     </a>
+   </section>
+
+
+   <section class="item item-column">
+     <a href="#">
+      <img class="image" src="IMG_0611.JPG" alt="メインディッシュ">
+      <div class="category">初六本木！</div>
+      <p class="description">このあとは美術鑑賞＆展望台へ</p>
+    </a>
+   </section>
+
+   <section class="item item-breaktime">
+     <a href="#">
+      <img class="image" src="AEEB5292.jpg" alt="メインディッシュ">
+      <div class="category">member紹介</div>
+      <p class="description">ビジュアル担当<br>八戸悠馬</p>
+    </a>
+   </section>
+
+   <section class="item item-maindish">
+     <a href="#">
+      <img class="image" src="ATJU4060.jpg" alt="メインディッシュ">
+      <div class="category">member紹介</div>
+      <p class="description">思いで作り担当<br>高橋ヒロや</p>
+    </a>
+   </section>
+
+   <section class="item item-breaktime">
+     <a href="#">
+      <img class="image" src="IMG_0259.JPG" alt="おやつの時間">
+      <div class="category">浅草寺</div>
+      <p class="description">恐怖のおみくじ</p>
+    </a>
+   </section>
+
+   <section class="item item-maindish">
+     <a href="#">
+      <img class="image" src="IMG_0351.JPG" alt="メインディッシュ">
+      <div class="category">スカイツリー</div>
+      <p class="description">上へは登れなかった</p>
+    </a>
+   </section>
+
+   <section class="item item-breaktime">
+     <a href="#">
+      <img class="image" src="IMG_0366.JPG" alt="メインディッシュ">
+      <div class="category">富士急ハイランド</div>
+      <p class="description">テイ＆スズが合流！</p>
+    </a>
+   </section>
+
+   <section class="item item-m item-apetizer">
+     <a href="#">
+       <img class="image" src="IMG_0680.JPG" alt="前菜">
+       <div class="category">東京目前！</div>
+       <p class="description">みんなのクロスバイク</p>
+     </a>
+   </section>
+
+
+   <section class="item item-column">
+     <a href="#">
+      <img class="image" src="IMG_0180.JPG" alt="メインディッシュ">
+      <div class="category">東京到着</div>
+      <p class="description">土砂降りで、ご機嫌斜め?</p>
+    </a>
+   </section>
+
+   <section class="item item-maindish">
+     <a href="#">
+      <img class="image" src="IMG_0166.JPG" alt="メインディッシュ">
+      <div class="category">福島に突入</div>
+      <p class="description">みんな楽しそう！</p>
+    </a>
+   </section>
+
+  </body>
+</html>
